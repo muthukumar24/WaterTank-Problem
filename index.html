@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tank Problem</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <h4 class="mt-3">Water Tank Problem</h4>
+                <h6 class="problem-heading">Given `n` always greater than -1, representing the block height. Now compute the units
+                    of water stored in-between the blocks. Build a Web Application (Frontend Solution)
+                    using Vanilla JavaScript and HTML/CSS to represent the solution.
+                </h6>
+                <p class="mt-0 mb-1">Hint: Generate SVG Shape (preferred) or Table View.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                <div>
+                  <div class="mb-3 mt-3">
+                    <label for="unitinput" class="form-label label-name">Input</label>
+                    <input type="text" class="form-control w-50" id="unitinput" placeholder="e.g 0, 4, 0, 0, 4, 0, 6, 0">
+                </div>
+                    <button class="btn btn-outline-primary" onclick="waterTankProblem()">Submit</button>
+                    <h5 class="mt-3">Input</h5>
+                    <table id="input-tank" class="table table-bordered mt-3"></table>
+                    <h5 class="mt-3">Output: <span id="result">0</span> Units</h5>
+                    <table id="output-tank" class="table table-bordered mt-3"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Java Script -->
+     <script src="./script.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

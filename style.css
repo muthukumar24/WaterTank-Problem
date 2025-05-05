@@ -1,0 +1,27 @@
+.problem-heading{
+    text-align: justify;
+}
+
+.label-name{
+    font-size: 20px;
+}
+
+#unitinput
+{
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000 !important;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+}
+
+.bg-primary {
+    background-color: blue;
+}
